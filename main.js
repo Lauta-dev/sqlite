@@ -9,4 +9,4 @@ app.get("/", (req, res) => {
 	});
 });
 
-app.listen(5151, () => console.log("server on port 5151"));
+app.listen(process.env.PORT, () => console.log("server on port 5151"));
